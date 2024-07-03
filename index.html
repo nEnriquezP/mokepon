@@ -10,26 +10,45 @@
        
         
         <section id="seleccionar-mascota">
-            <h1 class="titulo">MokePon 🔥 💧 🌱</h1>
-            <h2>Elige a tu mascota:</h2>
-            
-            <label class="tarjeta-de-mokepon" for="hipodoge">Hipodoge</label>
-            <input type="radio" name="mascota" id="hipodoge" />
-            
-            <label class="tarjeta-de-mokepon" for="capipepo">Capipepo</label>
-            <input type="radio" name="mascota"  id="capipepo"/>
+            <h1 class="titulo">MokePon</h1>
+            <h2 class="subtitulo">Elige a LA BESTIA</h2>
 
-            <label class="tarjeta-de-mokepon" for="ratigueya">Ratigueya</label>
-            <input type="radio" name="mascota"  id="ratigueya"/>
+            <div class="tarjetas">
+                <label class="tarjeta-de-mokepon" for="hipodoge">
+                   
+                    <img src="./IMG/hipodoge.webp" alt="Hipodoge">
+                    <p>Hipodoge</p>
+                </label>
+                <input type="radio" name="mascota" id="hipodoge" />
+                
+                <label class="tarjeta-de-mokepon" for="capipepo">
+                    
+                    <img src="./IMG/Capipepo.webp" alt="Capipepo" >
+                    <p>Capipepo</p>
+                </label>
+                <input type="radio" name="mascota"  id="capipepo"/>
+    
+                <label class="tarjeta-de-mokepon" for="ratigueya">
+                    
+                    <img src="./IMG/Rata.webp" alt="Ratigueya" >
+                    <p>Ratigueya</p>
+                </label>
+                <input type="radio" name="mascota"  id="ratigueya"/>
+
+            </div>
             
-            <button id="boton-mascota">Seleccionar Mascota</button>
+            <button class="botoncito" id="boton-mascota">
+                <img src="./IMG/pokeball.png" alt="Boton">
+                <p>Seleccionar Bestia</p>
+              
+            </button>
 
         </section>
 
 
         <section id="seleccionar-ataque">
-            <h1 class="titulo">MokePon 🔥 💧 🌱</h1>
-            <h2>Elite tu ataque:</h2>
+            <h1 class="titulo">MokePon</h1>
+            <h2 class="subtitulo2">Elite tu ataque:</h2>
             <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
             <p>La mascota del enemigo <span id="mascota-enemigo"></span>tiene <span id="vidas-enemigo">3</span> vidas</p>
             <p>

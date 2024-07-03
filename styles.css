@@ -1,38 +1,109 @@
-.titulo {
-    color: lightblue;
-    width: 1000px;
-    height: 45px;
-    background-color: #770D97;
-    text-align: center;
-    font-family: Pokemon Hollow; 
-    font-weight: bold;
-    font-size: 34px;
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Honk&display=swap');
 
-}
-
-body{
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-}
 
 #seleccionar-mascota {
     display: flex;
-    font-family: Pokemon Hollow;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.titulo {
+    color: lightblue;
+    font-family: "Honk", system-ui;
+    text-align: center;
+    font-size: 100px;
+    margin: 0px;
+}
+
+.subtitulo{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    text-align: left ;
+    
+
+}
+
+.tarjetas {
+    display: flex;
+    gap: 10px;
+}
+
+
+
 .tarjeta-de-mokepon {
     display: flex;
-    width: 100px;
-    height: 50px;
-    background-color: #B673F6;
+    flex-direction: column;
+    
+    width: 120px;
+    height: 120px;
+    background-color: #3D3B40;
+    
     padding: 10px;
     box-sizing: border-box;
     justify-content: center;
-    align-items: center;
+    align-items:center;
+    border-radius: 10px;
 }
+
+.tarjeta-de-mokepon p {
+    text-align: center;
+    color: white;
+    margin: 0;  
+}
+
+
+.tarjeta-de-mokepon img {
+    width: 80px;
+    height: 80px;
+  
+}
+
+body{
+    background-image: url("./IMG/vsBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    font-family: "Arimo", sans-serif;
+}
+
+
+
+
+
 
 input{
     display: none;
+}
+
+.botoncito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    width: 150px;
+    height: 90px;
+    
+
+}
+
+.botoncito p {
+    margin: 0;
+}
+
+.botoncito img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    
+}
+
+
+.subtitulo2 {
+    display: flex;
+    color: white;
 }
