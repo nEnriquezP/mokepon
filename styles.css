@@ -4,9 +4,35 @@
     height: 45px;
     background-color: #770D97;
     text-align: center;
-    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    font-family: Pokemon Hollow; 
     font-weight: bold;
     font-size: 34px;
 
 }
 
+body{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+#seleccionar-mascota {
+    display: flex;
+    font-family: Pokemon Hollow;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-de-mokepon {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: #B673F6;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    display: none;
+}
