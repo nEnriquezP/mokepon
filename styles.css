@@ -124,3 +124,28 @@ input{
     border-radius: 30px;
     border-color: transparent;
 }
+
+#mensajes {
+    display: flex;
+    width: 350px;
+    height: 100px;
+    background:rgba(215, 18, 110, 0.9);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    
+    border-radius: 35px;
+    
+}
+
+#boton-reiniciar {
+    border: none;
+    color: rgb(215, 18, 110);
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+}
